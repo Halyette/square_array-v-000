@@ -1,9 +1,5 @@
-
-  # your code here
-  def square_array(array)
-   n = [1, 2, 3]
-  n.each do |number|
-    n << number*2
-  end
-    n
+def square_array(array)
+  array_new = []
+  array.each { |numbers| array_new << numbers**2 }
+  return array_new
 end
